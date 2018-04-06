@@ -1,0 +1,456 @@
+#footer .social-icons ul li a.youtube:hover
+{
+	background-color:#cc181e;
+}
+
+.navbar-brand h1
+{
+	margin-top: -35px;
+}
+
+.logo,.header-logo
+{
+	max-width:55%;
+	padding: 23px;
+}
+
+.footer-logo
+{
+	margin-left: 100px;
+}
+
+#about-us 
+{
+    background-image: url(../images/about-bg.jpg);
+}
+
+.layer
+{
+	padding: 15px;
+    background-color: rgba(128, 128, 128, 0.55);
+}
+
+.layer p
+{
+	font-size: 16px;
+}
+
+.folio-image img
+{
+	height: 230px;
+}
+
+#stage
+{
+	    padding: 100px;
+}
+
+.navbar-nav>li>.dropdown-menu
+{
+	background-color: #3c3636 !important;
+}
+
+#tohash
+{
+	left: 50% !important;
+}
+
+.single-thumbnail img
+{
+	width: 400px;
+	height: auto;
+}
+
+.widget 
+{
+	list-style: none;
+}
+
+.widgettitle
+{
+	text-align: center;
+}
+
+.heading
+{
+	padding-bottom: 50px;
+}
+
+
+#jssor_1 div{
+	/*width:auto !important;*/
+}
+#jssor_1 img{
+	max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    max-height: 100% !important;
+    display: block !important;
+    margin: 0 auto !important;
+    margin-top: auto !important;
+    top: 50% !important;
+    transform: translateY(-50%) translateX(-50%) !important;
+    left: 50% !important;
+}
+
+.thumbnail img
+{
+	width: 100% !important;
+	height: 300px !important;
+}
+
+.left_transition {
+    position: fixed;
+    left: .5%;
+    transition: 1s all;
+}
+
+.contact_click_left {
+    height: 75px;
+    width: 200px;
+    position: fixed;
+    left: 0%;
+    top: 85%;
+    border-radius: 5%;
+    cursor: pointer;
+    z-index: 1;
+    background: rgba(0, 44, 61, 0.44);
+}
+
+.telephone_contact:first-child {
+    animation: telephone_animation 0.5s infinite;
+    -webkit-animation: telephone_animation 0.5s infinite;
+    -o-animation: telephone_animation 0.5s infinite;
+    -moz-animation: telephone_animation 0.5s infinite;
+    -ms-animation: telephone_animation 0.5s infinite;
+    z-index: 9;
+}
+
+.contact_click_left .telephone_div img {
+    left: 0;
+}
+
+.contact_click_left img {
+    margin-left: 7px; 
+    /*margin-top: 5px !important;*/
+    transition: 0.5s all;
+}
+
+.telephone_contact {
+    width: 50px;
+    position: absolute;
+    top: -5px;
+    left: 153px;
+}
+
+.telephone_div .telephone_contact:nth-child(2) {
+    top: 7px;
+}
+
+.contact_click_left .telephone_div img {
+    left: -7px;;
+}
+
+.contact_click_left img {
+    /* margin-left: 7px; */
+    /*margin-top: 5px !important;*/
+    transition: 0.5s all;
+}
+
+.telephone_contact {
+    width: 105px;
+    position: absolute;
+    top: -10px;
+    left: 153px;
+}
+
+.contact_click_left:hover {
+    animation: telephone_animate 1s;
+}
+
+.left_transition {
+    position: fixed;
+    left: .5%;
+    transition: 1s all;
+}
+
+.down
+{
+    margin-top: 13px !important;
+}
+
+
+@-webkit-keyframes telephone_animate {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%, 20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%, 60%, 80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@-webkit-keyframes telephone_animation {
+    from {
+        -ms-transform: rotate(7deg);
+        -o-transform: rotate(7deg);
+        -moz-transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+
+    to {
+        -ms-transform: rotate(-7deg);
+        -o-transform: rotate(-7deg);
+        -moz-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+    }
+}
+
+@keyframes telephone_animation {
+    0% {
+        -ms-transform: rotate(7deg);
+        -o-transform: rotate(7deg);
+        -moz-transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+
+    50% {
+        -ms-transform: rotate(-7deg);
+        -o-transform: rotate(-7deg);
+        -moz-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+    }
+
+    100% {
+        -ms-transform: rotate(7deg);
+        -o-transform: rotate(7deg);
+        -moz-transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+}
+
+@-webkit-keyframes telephone_animate {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%, 20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%, 60%, 80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+.numbers
+{
+    float: right;
+    padding-right: 6px;
+    color: #ffffff;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.whatsapp
+{
+    height: 20px;
+    width: 55px;
+    float: left;
+    margin-right: -9px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.header-logo
+{
+    max-width: 180px;
+    padding: 26px;
+}
+
+@media (max-width: 768px) 
+{
+    .header-logo 
+    {
+        max-width: 144px;
+        margin-top: 12px;
+    }
+}
+
+.form-control
+{
+    border-color: #fff;
+}
+
+.num
+{
+    direction: ltr;
+}
+
+.member-info
+{
+    height: 290px;
+}
+
+.service-info {
+    height: 120px;
+}
+
+div.wpcf7-mail-sent-ok
+{
+        border: 2px solid #0178ca;
+}
+
+
+
+.team-member-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+
+
+#team-section  .our-team {
+    padding-top: 20px;
+}
+
+#team-section .team-member img{
+    width: 99%;
+    height: auto;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.team-member .team-details {
+	border-radius: 50%;
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+    color: #fff;
+    padding: 0 2px;
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.team-member:hover .team-details {
+    opacity: 1;
+    -webkit-animation: bounceIn;
+    animation: bounceIn;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+}
+
+.team-member .team-details h4 {
+    padding-top: 30%;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.team-member .team-details li {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.team-member .team-details li a {
+    padding: 8px 12px;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #666;
+    font-size: 16px;
+}
+
+.team-member .team-details li:hover a {
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+
+.owl-controls {
+    margin-top: 35px !important;
+}
+
+
+#team-section .nav-tabs.nav-justified {
+    background: #28ABE3;
+}
+
+.team-member .team-details {
+    background-color: rgba(40, 171, 227, 0.8);
+}
+
+.counter-item i {
+    color: #28ABE3;
+}

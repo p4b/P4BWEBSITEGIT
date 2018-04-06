@@ -1,0 +1,12 @@
+
+----------- SCAN SUMMARY -----------
+Known viruses: 10023078
+Engine version: 0.99.2
+Scanned directories: 153
+Scanned files: 1984
+Infected files: 0
+Data scanned: 173.38 MB
+Data read: 147.43 MB (ratio 1.18:1)
+Time: 137.126 sec (2 m 17 s)
+Sat Feb 3 05:37:08 EST 2018
+Clamscan complete 03:37 02-03-2018
